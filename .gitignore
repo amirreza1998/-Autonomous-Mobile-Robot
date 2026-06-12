@@ -1,1 +1,8 @@
 first-assignment/venv
+robot-second-assignment/.venv
+robot-second-assignment/100831_155323_MultiCamera0_subset_db/ 
+robot-second-assignment/*.mp4
+robot-second-assignment/kitti_samples/
+robot-second-assignment/point_clouds/
+robot-second-assignment/kitti_point_clouds/
+robot-second-assignment/*.zip

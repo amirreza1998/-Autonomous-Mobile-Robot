@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.17)  4 JUN 2026 13:56
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.17)  5 JUN 2026 08:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,7 +742,11 @@ LaTeX Info: Redefining \latinfont on input line 14.
 (e:/Program Files/texlive/2025/texmf-dist/tex/xelatex/bidi/float-xetex-bidi.def
 File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
 or XeTeX engine
-) (./report_calibration.aux)
+) (./report_calibration.aux
+
+LaTeX Warning: Label `fig:kitti_depth_samples' multiply defined.
+
+)
 \openout1 = `report_calibration.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -819,14 +823,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `TU/B-NAZANIN.TTF(0)/b/n' undefined
-(Font)              using `TU/B-NAZANIN.TTF(0)/m/n' instead on input line 25.
+(Font)              using `TU/B-NAZANIN.TTF(0)/m/n' instead on input line 26.
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 10.20007pt on input line 26.
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 10.20007pt on input line 26.
+(Font)              scaled to size 10.20007pt on input line 30.
 
-Overfull \hbox (38.61813pt too wide) in paragraph at lines 26--27
+Overfull \hbox (15.07256pt too wide) in paragraph at lines 34--36
+[][][][]\TU/TimesNewRoman(0)/m/n/12 https://drive.google.com/drive/folders/16XN
+dDBAvsdZtKBk-osYSeKjDhDYmhG2y?usp=sharing[][][] []
+ []
+
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 10.20007pt on input line 41.
+
+Overfull \hbox (38.61813pt too wide) in paragraph at lines 41--42
 []\TU/B-NAZANIN.TTF(0)/b/n/12 برای این که کالیبریشن انجام شود ما به صفحه شطرنجی
  ([]\TU/TimesNewRoman(0)/m/n/12 Chessboard[]\TU/B-NAZANIN.TTF(0)/b/n/12 ) نیاز 
 داشتیم که از سایت []\TU/TimesNewRoman(0)/m/n/12 https://calib.io/pages/camera-[
@@ -842,7 +852,7 @@ File: ./images/clarification the size of each square.jpg Graphic file (type bmp
 
 ]
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 12.24008pt on input line 42.
+(Font)              scaled to size 12.24008pt on input line 57.
 
 
 [2]
@@ -857,31 +867,37 @@ File: images/Chessboard Corners Detection.png Graphic file (type bmp)
 [4]
 File: images/Interpretation of the camera matrix.png Graphic file (type bmp)
 <images/Interpretation of the camera matrix.png>
+
+
+[5]
 File: images/Undistortion Analysis.png Graphic file (type bmp)
 <images/Undistortion Analysis.png>
 
 
-[5]
+[6]
+File: images/Undistortion Analysis2.png Graphic file (type bmp)
+<images/Undistortion Analysis2.png>
+
+
+[7]
 File: images/Distribution of Reprojection Errors.png Graphic file (type bmp)
 <images/Distribution of Reprojection Errors.png>
 
 
-[6]
+[8]
 File: images/camera_poses_3d.png Graphic file (type bmp)
 <images/camera_poses_3d.png>
 
 
-[7]
-
-[8]
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 14.6881pt on input line 182.
-
-
 [9]
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 14.6881pt on input line 204.
+
 
 [10]
-Overfull \hbox (6.42044pt too wide) in paragraph at lines 251--252
+
+[11]
+Overfull \hbox (6.42044pt too wide) in paragraph at lines 273--274
 []\TU/B-NAZANIN.TTF(0)/b/n/12 اکنون که تصاویر کاملاً هم‌تراز شده‌اند، از الگوری
 تم تطابق بلوکی نیمه‌سراسری []\TU/TimesNewRoman(0)/m/n/12 SGBM (Semi-Global Bloc
 k Matching)[][]
@@ -889,9 +905,94 @@ k Matching)[][]
 
 Missing character: There is no ٔ (U+0654) in font [B-NAZANIN.TTF]/OT:language=d
 flt;script=arab;mapping=persian-tex-text;!
+File: images/meshlab-result.jpg Graphic file (type bmp)
+<images/meshlab-result.jpg>
 
 
-[11] (./report_calibration.aux)
+[12]
+File: images/report_samples_kagaru/orig_sample_1.jpg Graphic file (type bmp)
+<images/report_samples_kagaru/orig_sample_1.jpg>
+File: images/report_samples_kagaru/depth_sample_1.jpg Graphic file (type bmp)
+<images/report_samples_kagaru/depth_sample_1.jpg>
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 306.
+File: images/report_samples_kagaru/orig_sample_2.jpg Graphic file (type bmp)
+<images/report_samples_kagaru/orig_sample_2.jpg>
+File: images/report_samples_kagaru/depth_sample_2.jpg Graphic file (type bmp)
+<images/report_samples_kagaru/depth_sample_2.jpg>
+File: images/report_samples_kagaru/orig_sample_3.jpg Graphic file (type bmp)
+<images/report_samples_kagaru/orig_sample_3.jpg>
+File: images/report_samples_kagaru/depth_sample_3.jpg Graphic file (type bmp)
+<images/report_samples_kagaru/depth_sample_3.jpg>
+
+
+[13]
+
+[14]
+Missing character: There is no ٔ (U+0654) in font [B-NAZANIN.TTF]/OT:language=d
+flt;script=arab;mapping=persian-tex-text;!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 345.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 345.
+
+
+Overfull \hbox (58.14925pt too wide) in paragraph at lines 359--360
+[][]\TU/lmtt/m/n/12 -1.0/baseline[] \TU/B-NAZANIN.TTF(0)/b/n/12 قرار داده شده ب
+ود. این علامت منفی باعث می‌شود که در محاسبات ماتریسی تابع []\TU/lmtt/m/n/12 rep
+rojectImageTo3D[]\TU/B-NAZANIN.TTF(0)/b/n/12 ،[]
+ []
+
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 367.
+
+
+[15]
+File: images/report_samples_kitti-128/orig_sample_1.jpg Graphic file (type bmp)
+
+<images/report_samples_kitti-128/orig_sample_1.jpg>
+File: images/report_samples_kitti-128/depth_sample_1.jpg Graphic file (type bmp
+)
+<images/report_samples_kitti-128/depth_sample_1.jpg>
+File: images/report_samples_kitti-128/orig_sample_2.jpg Graphic file (type bmp)
+
+<images/report_samples_kitti-128/orig_sample_2.jpg>
+File: images/report_samples_kitti-128/depth_sample_2.jpg Graphic file (type bmp
+)
+<images/report_samples_kitti-128/depth_sample_2.jpg>
+File: images/report_samples_kitti-128/orig_sample_3.jpg Graphic file (type bmp)
+
+<images/report_samples_kitti-128/orig_sample_3.jpg>
+File: images/report_samples_kitti-128/depth_sample_3.jpg Graphic file (type bmp
+)
+<images/report_samples_kitti-128/depth_sample_3.jpg>
+
+
+[16]
+
+[17]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 454.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 454.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 454.
+
+File: ./images/q4-visualization.jpg Graphic file (type bmp)
+<./images/q4-visualization.jpg>
+
+
+[18]
+
+[19] (./report_calibration.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -900,16 +1001,19 @@ L3 programming layer <2025-01-18>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `report_calibration.out' has not changed.
-(rerunfilecheck)             Checksum: 25BB0001DA564D2998F5BCC0CE374414;6903.
+(rerunfilecheck)             Checksum: 2C2804F98A49FC221B50C5A0158CC7B9;10740.
  ) 
 Here is how much of TeX's memory you used:
- 15669 strings out of 473832
- 329980 string characters out of 5726732
- 766068 words of memory out of 5000000
- 38463 multiletter control sequences out of 15000+600000
- 566713 words of font info for 100 fonts, out of 8000000 for 9000
+ 15815 strings out of 473832
+ 336531 string characters out of 5726732
+ 769603 words of memory out of 5000000
+ 38595 multiletter control sequences out of 15000+600000
+ 566729 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,9n,107p,1195b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,12n,107p,1195b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report_calibration.pdf (11 pages).
+Output written on report_calibration.pdf (19 pages).
