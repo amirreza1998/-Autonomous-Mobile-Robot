@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.17)  5 JUN 2026 08:52
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.17)  12 JUN 2026 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -992,28 +992,75 @@ File: ./images/q4-visualization.jpg Graphic file (type bmp)
 
 [18]
 
-[19] (./report_calibration.aux)
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
- ***********
+LaTeX Warning: File `images/image_764c29.png' not found on input line 501.
+
+! Unable to load picture or PDF file 'images/image_764c29.png'.
+<to be read again> 
+                   }
+l.501 ...h=0.6\textwidth]{images/image_764c29.png}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.501 ...h=0.6\textwidth]{images/image_764c29.png}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: images/image_764c29.png Graphic file (type bmp)
+<images/image_764c29.png>
 
 
-LaTeX Warning: There were multiply-defined labels.
+[19]
+Overfull \hbox (1.9023pt too wide) in paragraph at lines 544--544
+[][]  \TU/lmtt/m/n/12 [[ 9.83930428e-01  9.81834433e-02  1.49133916e-01  2.5773
+9203e+00][] []
+ []
 
-Package rerunfilecheck Info: File `report_calibration.out' has not changed.
-(rerunfilecheck)             Checksum: 2C2804F98A49FC221B50C5A0158CC7B9;10740.
- ) 
-Here is how much of TeX's memory you used:
- 15815 strings out of 473832
- 336531 string characters out of 5726732
- 769603 words of memory out of 5000000
- 38595 multiletter control sequences out of 15000+600000
- 566729 words of font info for 102 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 94i,12n,107p,1195b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report_calibration.pdf (19 pages).
+Overfull \hbox (1.98627pt too wide) in paragraph at lines 544--544
+[][]  \TU/lmtt/m/n/12 [ 0.00000000e+00  0.00000000e+00  0.00000000e+00  1.00000
+000e+00]][] []
+ []
+
+
+LaTeX Warning: Reference `fig:coarse_fine_failed' on page 20 undefined on input
+ line 547.
+
+
+LaTeX Warning: File `images/image_763e39.png' not found on input line 551.
+
+! Unable to load picture or PDF file 'images/image_763e39.png'.
+<to be read again> 
+                   }
+l.551 ...h=0.6\textwidth]{images/image_763e39.png}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.551 ...h=0.6\textwidth]{images/image_763e39.png}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: images/image_763e39.png Graphic file (type bmp)
+<images/image_763e39.png>
+
+
+[20
