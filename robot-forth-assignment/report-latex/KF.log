@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.17)  29 JUN 2026 02:08
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.17)  1 JUL 2026 02:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -821,33 +821,73 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `TU/B-NAZANIN.TTF(0)/b/n' undefined
-(Font)              using `TU/B-NAZANIN.TTF(0)/m/n' instead on input line 24.
+(Font)              using `TU/B-NAZANIN.TTF(0)/m/n' instead on input line 27.
 
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 14.6881pt on input line 24.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
-(Font)              scaled to size 10.20007pt on input line 26.
+(Font)              scaled to size 10.20007pt on input line 31.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 14.6881pt on input line 36.
 File: images/Robot-Trajectory-in-ENU.png Graphic file (type bmp)
 <images/Robot-Trajectory-in-ENU.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 
 [1
 
 ]
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
-(Font)              scaled to size 12.24008pt on input line 57.
-
 
 [2]
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 12.24008pt on input line 69.
+
 
 [3]
 
 [4]
 
-[5] (./KF.aux)
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 161.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 161.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 161.
+
+
+
+[5]
+File: images/code-result-initialization.png Graphic file (type bmp)
+<images/code-result-initialization.png>
+
+Overfull \hbox (83.64944pt too wide) in paragraph at lines 191--192
+ [][][][][][] 
+ []
+
+
+
+[6]
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 10.20007pt on input line 208.
+
+
+[7]
+
+LaTeX Warning: Command \^ invalid in math mode on input line 227.
+
+Missing character: There is no ̂ ("302) in font cmmi12!
+File: images/efk-result-plot.png Graphic file (type bmp)
+<images/efk-result-plot.png>
+File: images/efk-result-plot-Q-increased.png Graphic file (type bmp)
+<images/efk-result-plot-Q-increased.png>
+
+
+[8]
+
+[9]
+
+[10] (./KF.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -857,15 +897,15 @@ L3 programming layer <2025-01-18>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `KF.out' has not changed.
-(rerunfilecheck)             Checksum: 1876709A9965139C2342A594D8FD1439;1417.
+(rerunfilecheck)             Checksum: 1C70D3A6760146EEA9600507B1D11518;3180.
  ) 
 Here is how much of TeX's memory you used:
- 15602 strings out of 473832
- 327239 string characters out of 5726732
- 764296 words of memory out of 5000000
- 38402 multiletter control sequences out of 15000+600000
- 566737 words of font info for 103 fonts, out of 8000000 for 9000
+ 15645 strings out of 473832
+ 328595 string characters out of 5726732
+ 767392 words of memory out of 5000000
+ 38439 multiletter control sequences out of 15000+600000
+ 566753 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,9n,107p,1179b,353s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,9n,107p,1179b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on KF.pdf (5 pages).
+Output written on KF.pdf (10 pages).
